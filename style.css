@@ -1,0 +1,314 @@
+body {
+    margin:0 auto;
+    max-width:650px;
+    width:650px;
+    font-family: Arial,Helvetica,sans-serif;;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color:#f06400;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+.fa-solid{
+    margin-left:20px;
+}
+.bold {
+    font-weight: bold;
+}
+
+header {
+    height:113px;
+    position:absolute;
+}
+
+.logo {
+    background: url("Images/logo.png");
+    width:177px;
+    height:113px;
+    background-size: cover;
+}
+
+.hero {
+    background: url("Images/banner.png") no-repeat;
+    width:100%;
+    height:279px;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-background {
+    width:100%;
+    height:100%;
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
+    display:flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    flex-direction: column;
+    padding-right:20px;
+    padding-bottom:15px;
+    box-sizing: border-box;
+}
+
+.blank {
+    height:56px;
+}
+
+h1 {
+    color:white;
+    font-size: 25px;
+    width:373px;
+    text-align: end;
+    font-weight: bold;
+}
+
+h2 {
+    color:white;
+    font-size: 20px;
+    text-align: end;
+    font-weight: normal;
+}
+
+.f16 {
+    font-size: 16px;
+}
+
+.f13 {
+    font-size: 13px;
+}
+.hero .button {
+    width:208px;
+    height:49px;
+    margin-top:15px
+}
+
+.first-section {
+    padding:20px;
+
+}
+
+.description {
+    background-color:#00b1af ;
+    width:602px;
+    height:129px;
+    color:white;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:15px
+}
+
+.description hr {
+    width:121px;
+    color:white;
+    margin: 15px 0;
+}
+
+.second-section {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    row-gap: 56px;
+}
+
+.card {
+    width:288px;
+    min-width:288px;
+    height:274px;
+    display:flex;
+    flex-direction: column; 
+}
+
+.price-container {
+    align-self: flex-end;
+    display:flex;
+    flex-direction: column;
+}
+
+.first-price {
+    color:black;
+    font-size:18px;
+    background: url('Images/barre.png') no-repeat;
+    background-size: 50%;
+    background-position: 10% 30%;
+}
+
+.second-price {
+    color:#f06400;
+    font-size:37px ;
+}
+
+.taxe {
+    font-size: 9px;
+    color: #f06400;
+    align-self: flex-end;
+}
+
+.car-img {
+    width:100%;
+    height:110px;
+}
+
+#scenic {
+    background: url("Images/scenic.png") no-repeat;
+    background-size: contain;
+    background-position: 50% 35%;
+
+}
+
+#a1 {
+    background: url("Images/a1.png") no-repeat;
+    background-size: contain;
+    background-position: 50% 35%;
+}
+
+#tiguan {
+    background: url("Images/tiguan.png") no-repeat;
+    background-size: contain;
+    background-position: 50% 35%;
+}
+
+#duster {
+    background: url("Images/duster.png") no-repeat;
+    background-size: contain;
+    background-position: 50% 35%;
+}
+
+.card .button {
+    width:128px;
+    height:28px;
+    align-self: flex-end;
+    font-size: 16px;
+    margin-bottom:25px;
+}
+
+.model {
+    font-size: 19px;
+    text-align: center;
+}
+
+.model-description {
+    font-size:16px;
+    text-align: center;
+}
+
+.third-section{
+    margin:30px 0;
+    display:flex;
+    justify-content: center;
+}
+
+.third-section .button{
+    width:372px;
+    height:47px;
+}
+
+.fourth-section >div:first-child {
+    width:221px;
+    padding-bottom:10px;
+    border-bottom:#f06400 5px solid;
+}
+
+.icon-container {
+    display:flex;
+    padding:30px 0;
+    justify-content: space-evenly;
+}
+
+.icon-card {
+    height:70px;
+    width:150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-card div {
+    text-align: center;
+}
+.icon {
+    width:55px;
+    height:50px;
+    min-height:50px;
+    margin-bottom:5px
+}
+
+#entretien {
+    background: url('Images/Maintenance-L.png') no-repeat;
+    background-size: contain;
+}
+
+#assistance {
+    background: url('Images/Road\ Assistance-L.png') no-repeat;
+    background-size: contain;
+}
+
+#remplacement {
+    background: url('Images/Calque\ 2.png') no-repeat;
+    background-size: contain;
+}
+
+#perte {
+    background: url('Images/perte_financière.png') no-repeat;
+    background-size: contain;
+}
+
+.fifth-section {
+    background-color: #00b1af;
+    width:100%;
+    height:94px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:27px;
+    margin-top:10px;
+}
+
+.fifth-section >div {
+    background-color: white;
+    height:51px;
+    width:600px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fifth-section .button{
+    font-size: 10px;
+    width:130px;
+    height:32px;
+}
+
+.input {
+    width:205px;
+    height:31px;
+    border-radius: 5px;
+    border: #b5b5b5 1px solid;
+    color:#b5b5b5;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+footer {
+    padding:20px 9px 12px 9px;
+    background-color: whitesmoke;
+    color:darkgray;
+    font-size: 10px;
+}
+
+footer>p:first-child{
+    margin-bottom:20px;
+}
